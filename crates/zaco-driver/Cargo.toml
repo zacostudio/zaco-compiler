@@ -1,0 +1,18 @@
+[package]
+name = "zaco-driver"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "zaco"
+path = "src/main.rs"
+
+[dependencies]
+zaco-ast = { path = "../zaco-ast" }
+zaco-lexer = { path = "../zaco-lexer" }
+zaco-parser = { path = "../zaco-parser" }
+zaco-typeck = { path = "../zaco-typeck" }
+zaco-ir = { path = "../zaco-ir" }
+zaco-codegen = { path = "../zaco-codegen" }
+clap = { version = "4", features = ["derive"] }
+ariadne = "0.5"

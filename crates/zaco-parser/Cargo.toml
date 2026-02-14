@@ -1,0 +1,8 @@
+[package]
+name = "zaco-parser"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+zaco-ast = { path = "../zaco-ast" }
+zaco-lexer = { path = "../zaco-lexer" }

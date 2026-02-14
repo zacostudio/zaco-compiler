@@ -1,0 +1,35 @@
+# Rust build artifacts
+/target/
+
+# Cargo lock (optional for libraries, keep for binaries)
+# Cargo.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# C runtime build artifacts
+runtime/*.o
+runtime/*.a
+runtime/*.so
+runtime/*.dylib
+
+# Compiled output
+*.o
+*.obj
+*.exe
+*.out
+
+# Temporary files
+*.tmp
+/tmp/
+
+# Local tool metadata
+.serena/

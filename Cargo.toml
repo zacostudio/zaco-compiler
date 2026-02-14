@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/zaco-ast",
+    "crates/zaco-lexer",
+    "crates/zaco-parser",
+    "crates/zaco-typeck",
+    "crates/zaco-ir",
+    "crates/zaco-codegen",
+    "crates/zaco-driver",
+]
+exclude = [
+    "runtime/zaco_runtime_rs",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"

@@ -8,6 +8,9 @@ fs.readFile(filePath, "utf-8", (err, data) => {
 		console.error("Error reading file:", err);
 		return;
 	}
+	if (data) {
+		console.log("==> Test Data:", data);
+	}
 });
 
 console.log("File read successfully");
